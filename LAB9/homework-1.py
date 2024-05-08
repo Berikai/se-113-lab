@@ -37,7 +37,7 @@ if not 3 <= user_number <= 7:
     print('Invalid number')
     exit()
 
-many_words = open('../week12-lab/wordlist.10000')
+many_words = open('wordlist.10000')
 many_words = many_words.read()
 many_words_list = many_words.split()
 
